@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Wisuda!</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        /* Menggunakan font Poppins sebagai default */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #111827; /* Fallback background */
+            /* Gradasi emas + hitam */
+            background-image: radial-gradient(circle at top right, rgba(212, 175, 55, 0.3), transparent 50%),
+                              radial-gradient(circle at bottom left, rgba(212, 175, 55, 0.3), transparent 50%);
+        }
+        /* Custom styling untuk Swiper navigation buttons */
+        .swiper-button-next, .swiper-button-prev {
+            color: #D4AF37; /* Warna emas */
+        }
+        .swiper-pagination-bullet-active {
+            background: #D4AF37;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white overflow-x-hidden">
+
+    <div class="container mx-auto px-6 py-12 text-center">
+
+        <header class="flex flex-col items-center justify-center min-h-screen">
+            <img 
+                src="IMG_1603.jpg" 
+                alt="Foto Wisudawan" 
+                class="w-48 h-48 rounded-full object-cover border-4 border-yellow-400 shadow-lg mb-6"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+            >
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">
+                <span id="typed-title"></span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300" data-aos="fade-up" data-aos-delay="500">
+                Semoga ilmu yang didapat menjadi berkah dan bermanfaat bagi semua.
+            </p>
+        </header>
+
+        <section class="py-16">
+            <h2 class="text-3xl font-bold mb-8" data-aos="fade-up">Galeri Kenangan 📸</h2>
+            <div class="swiper" data-aos="fade-up" data-aos-delay="200">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="aifaceswap-output (1).png" class="rounded-lg"></div>
+                    <div class="swiper-slide"><img src="aifaceswap-output (2).png" class="rounded-lg"></div>
+                    <div class="swiper-slide"><img src="aifaceswap-output (3).png" class="rounded-lg"></div>
+                    <div class="swiper-slide"><img src="IMG_1939.jpg" class="rounded-lg"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </section>
+
+        <section class="py-16">
+            <h2 class="text-3xl font-bold mb-12" data-aos="fade-up">Pesan & Doa dari Teman Teman Manpro ❤️</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-yellow-400 transform hover:scale-105 transition-transform duration-300" data-aos="zoom-in">
+                    <p class="text-gray-300 mb-4">"Happy graduation, Aderio! 🎉 lek balek nitip bekicot magetan der wkwkwk"</p>
+                    <h4 class="font-bold text-yellow-400 text-right">- Ammarul wong tulus</h4>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-yellow-400 transform hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="100">
+                    <p class="text-gray-300 mb-4">"Selamet lulus Aderio! 🎉 Ancen josjis arek iki, ajari cara lulus cepet pok o der🤣"</p>
+                    <h4 class="font-bold text-yellow-400 text-right">- Irsyad arek tangsel</h4>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-yellow-400 transform hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="200">
+                    <p class="text-gray-300 mb-4">"Selamet wisuda, Der! 🎓 Sukses dunia akhirat, ojo sampek lali tongkrongan lawas yoo 😜"</p>
+                    <h4 class="font-bold text-yellow-400 text-right">- Icha goth girl</h4>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-yellow-400 transform hover:scale-105 transition-transform duration-300" data-aos="zoom-in">
+                    <p class="text-gray-300 mb-4">"Selamat wisuda ngab. Semoga cepet oleh kerjo dan lek rabi ojk lali undang undang wwkwkwk"</p>
+                    <h4 class="font-bold text-yellow-400 text-right">- Mas jaka sangar</h4>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-yellow-400 transform hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="100">
+                    <p class="text-gray-300 mb-4">"Selamat menempuh kehidupan dewasa ader. Semoga roda kehidupannya naik gunung biar ke atas terus."</p>
+                    <h4 class="font-bold text-yellow-400 text-right">- Arkan sepuh gambar</h4>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-yellow-400 transform hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="200">
+                    <p class="text-gray-300 mb-4">"Happy graduation, Der! 🎓 Sukses dunia akhirat, lek kate nongkrong cafeku selalu terbuka untukmu"</p>
+                    <h4 class="font-bold text-yellow-400 text-right">- Aul mbak PM</h4>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-yellow-400 transform hover:scale-105 transition-transform duration-300" data-aos="zoom-in">
+                    <p class="text-gray-300 mb-4">"Aderiooo, selamet wisuda! 🎓 Happy graduation, sukses dunia akhirat, kabar kabar kalok mau ke Surabaya lagi"</p>
+                    <h4 class="font-bold text-yellow-400 text-right">- Diva tukang halu</h4>
+                </div>
+                 <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-yellow-400 transform hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="100">
+                    <p class="text-gray-300 mb-4">"Terima kasih aderio atas semua kenangan yang bermakna. Semoga sukses selalu dan keberhasilan menyertai langkahmu."</p>
+                    <h4 class="font-bold text-yellow-400 text-right">- Hildha Kusennn</h4>
+                </div>
+                 <div class="bg-gray-800 p-6 rounded-lg shadow-lg border-l-4 border-yellow-400 transform hover:scale-105 transition-transform duration-300" data-aos="zoom-in" data-aos-delay="200">
+                     <p class="text-gray-300 mb-4">"Congrats ader atas wisudanya! Terima kasih sudah jadi teman terbaik selama masa perkuliahan sampai sekarang. Banyak suka duka yang kita lewati bareng, dan aku bersyukur bisa punya teman sepertimu. Semoga perjalanan ke depannya penuh kebahagiaan, rezeki lancar, dan semua mimpi bisa diraih"</p>
+                    <h4 class="font-bold text-yellow-400 text-right">- Sultan bad boy</h4>
+                </div>
+
+            </div>
+        </section>
+        
+        <footer class="text-center py-8 text-gray-500">
+            <p>Dibuat dengan ❤️ untuk momen spesialmu.</p>
+        </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            
+            // 1. Inisialisasi AOS (Animate On Scroll)
+            AOS.init({
+                once: true // Animasi hanya berjalan sekali
+            });
+
+            // 2. Inisialisasi Typed.js
+            var options = {
+                // Ganti nama wisudawan di sini
+                strings: ['Congratulations!', 'You Did It!', 'Selamat Wisuda, Aderio Rendy Harenza!'],
+                typeSpeed: 50,
+                backSpeed: 25,
+                loop: true,
+                smartBackspace: true
+            };
+            var typed = new Typed('#typed-title', options);
+
+            // 3. Inisialisasi Swiper.js
+            const swiper = new Swiper('.swiper', {
+                loop: true,
+                autoplay: {
+                    delay: 2500,
+                    disableOnInteraction: false,
+                },
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+
+            // 4. Jalankan Confetti.js saat halaman dibuka
+            function fireConfetti() {
+                confetti({
+                    particleCount: 150,
+                    spread: 90,
+                    origin: { y: 0.6 }
+                });
+            }
+            fireConfetti();
+        });
+    </script>
+</body>
+</html>
